@@ -18,7 +18,12 @@ namespace Day4C
             int? x = 12;
             int? y = i ?? j;
             int? z = x ?? j;
-            Console.WriteLine("The nullable int values are: i = {0}, j = {1}" ,i,j);
+            if (i.HasValue)
+                Console.WriteLine(i.Value);
+            else
+                Console.WriteLine("i has null value.");
+            
+            Console.WriteLine("The nullable int values is:j = {1}" ,i,j);
             Console.WriteLine("The nullable double value is: " + k);
             Console.WriteLine("The nullable boolean value is: " + v);
             Console.WriteLine("After using Null coalescing operator: y = {0}, z = {1}", y, z);
