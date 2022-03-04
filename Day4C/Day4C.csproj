@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day4C.Nullables</StartupObject>
+    <StartupObject>Day4C.Constructors</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constructors.cs" />
     <Compile Include="Nullables.cs" />
     <Compile Include="CollAdv.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
